@@ -13,11 +13,11 @@ namespace HelloGit
 
             BubbleSort(initialArray);
 
-            if (!initialArray.Intersect(sortedArray).Any()) throw new Exception("Sorting doesn't work!");
+            if (!initialArray.SequenceEqual(sortedArray)) throw new Exception("Sorting doesn't work!");
             Console.WriteLine("complete!");
         }
 
-        private static void BubbleSort(IList<int> array)
+        private static void BubbleSort(IEnumerable<int> array)
         {
             // TODO Напиши сортировку пузырьком. Запусти проект, и проверь, что Main не падает.
         }
