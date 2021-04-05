@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace HelloGit
@@ -17,9 +16,20 @@ namespace HelloGit
             Console.WriteLine("complete!");
         }
 
-        private static void BubbleSort(IEnumerable<int> array)
+        private static void BubbleSort(int[] initalArray)
         {
-            // TODO Напиши сортировку пузырьком. Запусти проект, и проверь, что Main не падает.
+            for (int i = 0; i < initalArray.Length-1; i++)
+            {
+                for (var j = i+1; j < initalArray.Length; j++)
+                { 
+                    if (initalArray[i] > initalArray[j])
+                    {
+                        var t = initalArray[i];
+                        initalArray[i] = initalArray[j];
+                        initalArray[j] = t;
+                    }
+                }
+            }
         }
     }
 }

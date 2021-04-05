@@ -1,0 +1,6 @@
+D:\Git\HelloGit\bin\Debug\HelloGit.exe
+D:\Git\HelloGit\bin\Debug\HelloGit.pdb
+D:\Git\HelloGit\obj\Debug\HelloGit.csprojAssemblyReference.cache
+D:\Git\HelloGit\obj\Debug\HelloGit.csproj.CoreCompileInputs.cache
+D:\Git\HelloGit\obj\Debug\HelloGit.exe
+D:\Git\HelloGit\obj\Debug\HelloGit.pdb
